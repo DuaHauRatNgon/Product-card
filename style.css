@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins";
+    background: linear-gradient(to right, #67B26F, #4ca2cd);
+    height: 100vh;
+}
+
+.card {
+    /* cach can giua */
+    /* c1 */
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* c2 */
+    /* margin: 120px; */
+    height: 400px;
+    width: 300px;
+    background-color: #1e272e;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+}
+
+i{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.heart{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.cart{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.img{
+    /* width: 90%; */
+    /* height: 70%; */
+    margin: 20px 0;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title{
+    font-size: 25px;
+    color: #67B26F;
+}
+
+.price{
+    color: white;
+    font-size: 20px;
+}
+
+.size{
+    color: white;
+    margin-top: 10px;
+}
+
+.size span{
+    color: black;
+    padding: 4px 8px;
+    background-color: #ccc;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.color{
+    color: white;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.color div{
+    /* padding: 10px; */
+    height: 15px;
+    width: 15px;
+    margin-left: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.green{
+    background: #67B26F;
+}
+
+.red {
+    background-color: firebrick;
+}
+
+.black{
+    background-color: black;
+}
+
+.btn{
+    margin-top: 15px;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    margin: 0 10px;
+    background-color: #6ab04c;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
